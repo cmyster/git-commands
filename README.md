@@ -1,2 +1,2 @@
 # git-commands
-List with git commands and tricks
+Short txt with a bunch of commands to remember and tricks.

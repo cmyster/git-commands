@@ -1,0 +1,13 @@
+Everything is working and up-to-date. I have a CRU(D) and I want to add the D(elete).
+
+1.  git checkout master
+2a. git branch add_delete_func
+2b. git checkout -b add_delete_func (no need for 3.)
+3.  git checkout add_delete_func
+4.  Write and test the code.
+5.  git commit (or -m "added the delete function").
+6.  git checkout master (next steps are from master).
+7.  See what branches we have with 'git branch (--list)'.
+8.  See which branches have been committed and are waiting to be merged with 'git branch --no-merge'.
+9.  git merge add_delete_func
+

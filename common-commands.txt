@@ -1,0 +1,19 @@
+Local repo(sitory):
+* Initializing it with 'git init'.
+
+Remote repo(sitory):
+* Cloning it locally with 'git clone <url>'.
+* Get info of remote repo with 'git remote'.
+* To see pull and push urls add '-v'.
+* Check forks you made with 'git remote show' (origin is the main one).
+* To see status of remote branches add 'origin' (or name of your fork).
+
+Branches:
+* Usually the main branch to work on is main. Could be "dev" or "master" or something like that.
+* Check which branches are available locally with 'git branch'.
+* add '-r' if the repo is remote.
+* add '-v' to see also latest commit and hash.
+* See what branch you are on with a list of available ones, local and upstream, with 'git branch -a'
+* To see all current commits do 'git ls-remote', get the hash for HEAD and see who is the main branch with grepping the same hash.
+* Create a new branch with 'git branch <name>'.
+* To create a new branch and move to it, 'git checkout -b <name>'.
